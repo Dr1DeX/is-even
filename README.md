@@ -8,7 +8,7 @@
     def is_even(value):
         return value % 2 == 0
 
-    def is_even_mod(value):
+    def is_even_bitwise(value):
         return not value & 1
 
 -------
@@ -31,8 +31,8 @@
     Func is_even completes execution:
     0.04389549998450093
 
-    Func is_even_mod start the execution: 
-    Func is_even_mod completes execution: 
+    Func is_even_bitwise start the execution: 
+    Func is_even_bitwise completes execution: 
     0.037116499996045604 
 
 -----
