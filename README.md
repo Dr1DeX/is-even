@@ -50,4 +50,4 @@ _____
 
 _____
 
-## Developer: Dr1Dex
+## Developer: Dr1DeX
