@@ -1,4 +1,4 @@
-from main import is_even, is_even_mod
+from main import is_even, is_even_bitwise
 import unittest
 
 
@@ -14,7 +14,7 @@ class TestCorrectRun(unittest.TestCase):
         for params, expected in corner_case:
             with self.subTest(params=params, expected=expected):
                 actual = is_even(params)
-                actual_bitwise = is_even_mod(params)
+                actual_bitwise = is_even_bitwise(params)
                 self.assertEqual(actual, expected)
                 self.assertEqual(actual_bitwise, expected)
 
