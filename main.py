@@ -3,4 +3,5 @@ def is_even(value):
 
 
 def is_even_mod(value):
-    return value & 1 == 0
+    return not value & 1
+
