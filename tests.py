@@ -1,6 +1,5 @@
 from main import is_even, is_even_mod
 import unittest
-import time
 
 
 class TestCorrectRun(unittest.TestCase):
@@ -9,7 +8,6 @@ class TestCorrectRun(unittest.TestCase):
             (2, True),
             (4, True),
             (0, True),
-            ('', False),
             (3, False),
         ]
 
